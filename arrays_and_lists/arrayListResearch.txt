@@ -1,0 +1,7 @@
+ArrayList -> collection framework in Java.
+ - Has a set of methods to access elements and modify them.
+ - Does not have fixed size, is dynamic
+ - Supports only object entries (Integer, String, Object)
+ - References of the actual objects are stored at contiguous locations,
+   NOT the actual objects.
+
