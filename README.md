@@ -1,1 +1,1 @@
-# telerik
+# Problems solved in the academy
