@@ -16,7 +16,7 @@ public class multiDimensions {
 			
 			for(int j = 0; j < n; j++){
 				matrix[i][j] =  (long) Math.pow(2, i + j);
-				if(j >= startCol){
+				if(j >= startCol){ // change this to include or not the main diagonal
 					sum += matrix[i][j];
 				}
 			}
