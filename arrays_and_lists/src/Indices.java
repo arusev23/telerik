@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-// Да си прегледам задачата ред по ред вкъщи
+// Re-solve at home
 
 public class Indices {
 	public static void main(String[] args){
@@ -19,7 +19,7 @@ public class Indices {
 			used[i] = false;
 		}
 		
-		ArrayList<Integer> result = new ArrayList<>(); // лист за резултата
+		ArrayList<Integer> result = new ArrayList<>(); // list for the result
 		
 		int cycleStartIndex = -1;
 		int currentIndex = 0;

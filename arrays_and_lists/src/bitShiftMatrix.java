@@ -1,15 +1,15 @@
 import java.math.BigInteger;
 import java.util.Scanner;
 
-// Трябва да се довърши вкъщи
+// Finish at home
 
 public class bitShiftMatrix {
 	public static void main(String[] args){
 		Scanner in = new Scanner(System.in);
 		
-		int r = in.nextInt(); in.nextLine(); // ред
-		int c = in.nextInt(); in.nextLine(); // колона
-		int n = in.nextInt(); in.nextLine(); // брой търсени числа
+		int r = in.nextInt(); in.nextLine(); // row
+		int c = in.nextInt(); in.nextLine(); // column
+		int n = in.nextInt(); in.nextLine(); // count of cells to look for
 		int[] cells = new int[n];
 		for(int i = 0; i < n; i++){
 			cells[i] = in.nextInt();
