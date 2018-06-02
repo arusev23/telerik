@@ -13,9 +13,10 @@ public class arrayListDemo {
 		list.set(1, 4);
 		list.remove(1);
 		
-		for (Integer item : list) {
-		    System.out.println(item);
-		}
+//		for (Integer item : list) { 
+//		    System.out.println(item);
+//		}
+		list.forEach(System.out::println);
 		
 	}
 }

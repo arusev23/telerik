@@ -39,7 +39,9 @@ public class Bounce {
 			}
 			
 			if(colWall == true && currentCol != 0){
-				
+				currentCol--;
+			}else{
+				colWall = false;
 			}
 		}
 	}
