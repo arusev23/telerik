@@ -1,3 +1,0 @@
-telerik
-
-Added the telerik hello world printer.
